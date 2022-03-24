@@ -14,6 +14,8 @@ const Auto = () => {
 			<h3>Auto</h3>
 			<p>Stav nádrže: {tankLevel}</p>
 
+			{ tankLevel === 'full' && <p>Máš plnou nádrž, můžeš jet až do Číny.</p> }
+
 			<button onClick={handleClick}>Ujeď hodně kilometrů</button>
 		</div>
 	)

@@ -7,6 +7,7 @@ import Klikatko from './components/Klikatko';
 import Textatko from './components/Textatko';
 
 import Auto from './components/Auto';
+import Pocitadlo from './components/Pocitadlo';
 
 const people = [
   { id: 1, name: 'Alena', age: '31', hair: 'blonde' },
@@ -19,6 +20,10 @@ const people = [
 const App = () => {
   return (
     <>
+      <Pocitadlo />
+
+      <hr />
+
       <Auto />
 
       <hr />
