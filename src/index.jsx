@@ -9,9 +9,16 @@ const people = [
   { name: 'Katka', age: '31', hair: 'red' },
 ];
 
+import Person from './components/Person';
+
 const App = () => {
   return (
     <>
+
+      <h2>Lidi</h2>
+      <ul>
+        { people.map(person => <li>{person.name}</li>) }
+      </ul>
 
     </>
   );
