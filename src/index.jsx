@@ -11,10 +11,14 @@ const people = [
 ];
 
 import Person from './components/Person';
+import Klikatko from './components/Klikatko';
 
 const App = () => {
   return (
     <>
+      <Klikatko />
+
+      <hr />
 
       <h2>Lidi</h2>
       <ul>
