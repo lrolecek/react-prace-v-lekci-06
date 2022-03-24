@@ -1,0 +1,14 @@
+.person {
+	border: 1px solid dodgerblue;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.person h3 {
+	margin: 0 0 10px 0;
+}
+
+.person p {
+	color: gray;
+	margin-bottom: 0;
+}

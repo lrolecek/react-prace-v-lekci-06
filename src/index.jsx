@@ -20,6 +20,10 @@ const App = () => {
         { people.map(person => <li>{person.name}</li>) }
       </ul>
 
+      <h2>Lidi o trochu lépe</h2>
+      <Person name="Erika" age="21" hair="green" />
+
+
     </>
   );
 }
