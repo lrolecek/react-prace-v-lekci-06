@@ -2,6 +2,10 @@ import React from 'react';
 import { render } from 'react-dom';
 import './style.css';
 
+import Person from './components/Person';
+import Klikatko from './components/Klikatko';
+import Textatko from './components/Textatko';
+
 const people = [
   { id: 1, name: 'Alena', age: '31', hair: 'blonde' },
   { id: 2, name: 'Petra', age: '27', hair: 'black' },
@@ -10,12 +14,13 @@ const people = [
   { id: 113, name: 'Eva', age: '14', hair: 'blue' },
 ];
 
-import Person from './components/Person';
-import Klikatko from './components/Klikatko';
-
 const App = () => {
   return (
     <>
+      <Textatko />
+
+      <hr />
+
       <Klikatko />
 
       <hr />
