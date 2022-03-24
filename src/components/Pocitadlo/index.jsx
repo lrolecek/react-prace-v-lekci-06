@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 
 const Pocitadlo = () => {
 
-	const [count, setCount] = useState('10');
+	const [count, setCount] = useState(10);
 
 	const handleClick = () => {
 		setCount(count + 1);
