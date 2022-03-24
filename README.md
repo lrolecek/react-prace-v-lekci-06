@@ -1,1 +1,1 @@
-# react-prace-v-lekci-06
+# Kurz React - práce v lekci 6
