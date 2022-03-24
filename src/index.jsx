@@ -6,6 +6,8 @@ import Person from './components/Person';
 import Klikatko from './components/Klikatko';
 import Textatko from './components/Textatko';
 
+import Auto from './components/Auto';
+
 const people = [
   { id: 1, name: 'Alena', age: '31', hair: 'blonde' },
   { id: 2, name: 'Petra', age: '27', hair: 'black' },
@@ -17,6 +19,10 @@ const people = [
 const App = () => {
   return (
     <>
+      <Auto />
+
+      <hr />
+
       <Textatko />
 
       <hr />
